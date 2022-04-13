@@ -40,7 +40,6 @@ body {
 /* 头部 */
 .header {
     height: 42px;
-    background-color: pink;
     margin: 30px auto;
 }
 
@@ -52,16 +51,150 @@ h1 {
 .nav {
     float: left;
 
-    margin-left: 70px;
     height: 42px;
-    background-color: green;
+    margin-left: 70px;
 }
 
 .nav li {
     float: left;
+
     margin-right: 26px;
 }
 
 .nav li a {
+    display: block;
+
+    padding: 0 9px;
     height: 42px;
+    line-height: 42px;
+
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+    float: left;
+    margin-left: 59px;
+    margin-top: 1px;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+
+.search input {
+    float: left;
+    padding-left: 20px;
+    width: 360px;
+    height: 38px;
+    border: 0;
+}
+
+.search input::placeholder {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/btn.png);
+    border: 0;
+}
+
+.user {
+    float: right;
+    margin-right: 35px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.user img {
+    /* 调节图片垂直方向对齐方式 */
+    vertical-align: middle;
+}
+
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .wrapper {
+    height: 420px;
+    background-image: url(../images/banner2.png);
+}
+
+.banner .left {
+    float: left;
+    padding: 0 20px;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height: 44px;
+}
+
+.banner ul {
+    margin-top: 13px;
+}
+
+.banner a {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.banner a:hover {
+    color: #00b4ff;
+}
+
+.banner .left span {
+    float: right;
+}
+
+.banner .right {
+    float: right;
+    margin-top: 50px;
+    width: 228px;
+    height: 300px;
+    background-color: #ffffff;
+}
+
+.banner .right h2 {
+    height: 48px;
+    background-color: #9bceea;
+    font: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 48px;
+}
+
+.banner .content {
+    padding: 0 18px;
+}
+
+.banner .right dl {
+    padding: 12px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.banner .right .content dt {
+    color: #4e4e4e;
+    line-height: 16px;
+}
+
+.banner .right .titleLeft {
+    font-size: 16px;
+}
+
+.banner .right .titleRight {
+    font-size: 14px;
+}
+
+.banner .right .content dd {
+    color: #a5a5a5;
+    font-size: 12px;
+    line-height: 20px;
 }
