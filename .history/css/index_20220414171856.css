@@ -181,7 +181,9 @@ h1 {
 }
 
 .banner .right .content dt {
+    display: block;
     color: #4e4e4e;
+    height: 16px;
     line-height: 16px;
 }
 
@@ -197,17 +199,4 @@ h1 {
     color: #a5a5a5;
     font-size: 12px;
     line-height: 20px;
-}
-
-.banner .right .all {
-    display: block;
-    margin: 4px auto 0;
-    width: 200px;
-    height: 41px;
-    border: 1px solid #00a4ff;
-    font-weight: 700;
-    font-size: 16px;
-    color: #00a4ff;
-    text-align: center;
-    line-height: 41px;
 }

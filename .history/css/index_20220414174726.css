@@ -205,9 +205,6 @@ h1 {
     width: 200px;
     height: 41px;
     border: 1px solid #00a4ff;
-    font-weight: 700;
-    font-size: 16px;
+    font: 700 16px;
     color: #00a4ff;
-    text-align: center;
-    line-height: 41px;
 }
