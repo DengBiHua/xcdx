@@ -360,7 +360,9 @@ h1 {
 }
 
 .footer .right dd {
-    padding: 2px 0;
+    display: block;
+    height: 16px;
+    line-height: 16px;
     font-size: 12px;
     color: #333333;
 }

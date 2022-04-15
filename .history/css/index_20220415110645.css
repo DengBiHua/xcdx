@@ -352,15 +352,3 @@ h1 {
     float: left;
     margin-left: 121px;
 }
-
-.footer .right dt {
-    margin-bottom: 8px;
-    font-size: 16px;
-    color: #333333;
-}
-
-.footer .right dd {
-    padding: 2px 0;
-    font-size: 12px;
-    color: #333333;
-}

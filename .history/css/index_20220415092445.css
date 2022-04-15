@@ -235,132 +235,13 @@ h1 {
 
 .recommend ul li {
     float: left;
+    padding: 0 34px;
 }
 
 .recommend ul li a {
-    padding: 0 34px;
     border-left: 1px solid #bfbfbf;
-    font-size: 16px;
-    color: #050505;
 }
 
 .recommend .interest {
     float: right;
-    padding: 0 26px;
-    font-size: 14px;
-    color: #00a4ff;
-}
-
-.recommendDetail {
-    margin-top: 37px;
-}
-
-.recommendDetail .title {
-    height: 40px;
-}
-
-.recommendDetail .title h2 {
-    float: left;
-    font-size: 20px;
-    color: #494949;
-    font-weight: 400;
-}
-
-.recommendDetail .title a {
-    float: right;
-    padding: 8px 31px 0;
-    font-size: 12px;
-    color: #a5a5a5;
-}
-
-.recommendDetail .content {
-    background-color: pink;
-}
-
-.recommendDetail .content li {
-    float: left;
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
-
-.recommendDetail .content li:nth-child(5n) {
-    margin-right: 0px;
-}
-
-.recommendDetail .content a {
-    display: block;
-    width: 228px;
-    height: 270px;
-    background-color: #ffffff;
-}
-
-.recommendDetail .content h3 {
-    margin: 20px 25px 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #050505;
-}
-
-.recommendDetail .content p {
-    margin-left: 23px;
-    margin-top: 15px;
-    font-size: 12px;
-    color: #999999;
-}
-
-.recommendDetail .content p span {
-    color: #ff7c2d;
-}
-
-.footer {
-    margin-top: 40px;
-    padding-top: 33px;
-    height: 417px;
-    background-color: #ffffff;
-}
-
-.footer .left {
-    float: left;
-    margin-left: 21px;
-    width: 426px;
-}
-
-.footer .left p {
-    margin-top: 25px;
-    font-size: 12px;
-    color: #666666;
-}
-
-.footer .left a {
-    display: block;
-    margin-top: 15px;
-    width: 120px;
-    height: 36px;
-    border: 1px solid #00a4ff;
-    font-size: 16px;
-    color: #00a4ff;
-    text-align: center;
-    line-height: 36px;
-}
-
-.footer .right {
-    float: right;
-    margin-right: 31px;
-}
-
-.footer .right dl {
-    float: left;
-    margin-left: 121px;
-}
-
-.footer .right dt {
-    margin-bottom: 8px;
-    font-size: 16px;
-    color: #333333;
-}
-
-.footer .right dd {
-    padding: 2px 0;
-    font-size: 12px;
-    color: #333333;
 }

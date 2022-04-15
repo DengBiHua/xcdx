@@ -303,64 +303,11 @@ h1 {
 
 .recommendDetail .content p {
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 12px;
     color: #999999;
 }
 
 .recommendDetail .content p span {
-    color: #ff7c2d;
-}
-
-.footer {
-    margin-top: 40px;
-    padding-top: 33px;
-    height: 417px;
-    background-color: #ffffff;
-}
-
-.footer .left {
-    float: left;
-    margin-left: 21px;
-    width: 426px;
-}
-
-.footer .left p {
-    margin-top: 25px;
-    font-size: 12px;
-    color: #666666;
-}
-
-.footer .left a {
-    display: block;
-    margin-top: 15px;
-    width: 120px;
-    height: 36px;
-    border: 1px solid #00a4ff;
-    font-size: 16px;
-    color: #00a4ff;
-    text-align: center;
-    line-height: 36px;
-}
-
-.footer .right {
-    float: right;
-    margin-right: 31px;
-}
-
-.footer .right dl {
-    float: left;
-    margin-left: 121px;
-}
-
-.footer .right dt {
-    margin-bottom: 8px;
-    font-size: 16px;
-    color: #333333;
-}
-
-.footer .right dd {
-    padding: 2px 0;
-    font-size: 12px;
-    color: #333333;
+    color: #999999;
 }
