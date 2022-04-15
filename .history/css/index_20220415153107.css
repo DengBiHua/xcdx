@@ -288,7 +288,6 @@ h1 {
 }
 
 .recommendDetail .content a {
-    position: relative;
     display: block;
     width: 228px;
     height: 270px;
@@ -314,9 +313,7 @@ h1 {
 }
 
 .recommendDetail .content .hot {
-    position: absolute;
-    top: 4px;
-    right: -4px;
+    
 }
 
 .footer {
